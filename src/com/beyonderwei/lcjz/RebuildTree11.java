@@ -31,7 +31,7 @@ class TreeNode {
 /**
  * 代码来自 LeedCode 的官方题解
  */
-public class RebuildTree {
+public class RebuildTree11 {
 
     private Map<Integer, Integer> indexMap;
 
