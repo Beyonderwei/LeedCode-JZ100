@@ -21,17 +21,17 @@ import java.util.Map;
         参考myBuildTree方法上的注释（重要），因为每个参数有固定的含义，直接按照规律写就可以，用来解释框架中第2、3步中参数的含义
 */
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
-
 /**
  * 代码来自 LeedCode 的官方题解
  */
 public class RebuildTree11 {
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
 
     private Map<Integer, Integer> indexMap;
 
