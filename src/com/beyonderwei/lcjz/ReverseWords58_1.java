@@ -1,5 +1,13 @@
 package com.beyonderwei.lcjz;
 
+/*
+ 1. 题解：从字符串后往前寻找，通过左右定位单词边界，然后从后往前添加单词到 StringBuilder
+         - substring 左闭右开
+         - trim 去掉前后空格
+ 2. 参考：https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/solution/mian-shi-ti-58-i-fan-zhuan-dan-ci-shun-xu-shuang-z/
+*/
+
+
 public class ReverseWords58_1 {
 
     public String reverseWords(String s) {
