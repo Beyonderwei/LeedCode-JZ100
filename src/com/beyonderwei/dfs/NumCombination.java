@@ -21,7 +21,7 @@ public class NumCombination {
         }
     }
 
-    // 通过DFS 解决子集问题，输入一个不包含重复数字的数组，输出所有的子集
+    // 通过DFS 得到K个数字的组合，输入一个不包含重复数字的数组，输出所有的组合
     public static void dfs(int[] arr, int start, LinkedList<Integer> stack) {
         // 求k个数字的的组合
         if (stack.size() == 3) {
